@@ -13,7 +13,7 @@ namespace EventHubsClient
     {
        private static System.Timers.Timer SensorTimer;
 
-        private const string DeviceConnectionString = "< IoT Hub 연결문자열로 바꿔주세요!>";
+        private const string DeviceConnectionString = "Endpoint=sb://hahaysheventhubs.servicebus.windows.net/;SharedAccessKeyName=fromdevice;SharedAccessKey=9N5AwkmmYtdgF3AvgEKT7q3EH1BMa0f0U7npjumkxN0=;EntityPath=hahayhseventhub1";
         private const string DeviceID = "Device1";
 
         private static Microsoft.Azure.EventHubs.EventHubClient SensorDevice = null;
